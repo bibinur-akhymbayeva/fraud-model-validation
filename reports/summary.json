@@ -1,0 +1,67 @@
+{
+  "overall_rating": "Amber",
+  "champion": "Class weights",
+  "champion_params": {
+    "scale_pos_weight": 473.7
+  },
+  "score_psi": 0.11976131336971742,
+  "adversarial_auc": 0.9996718135757283,
+  "comparison": [
+    {
+      "model": "Baseline (log loss)",
+      "trees": 147,
+      "valid_pr_auc": 0.7852093259633292,
+      "test_pr_auc": 0.8028711724233424,
+      "test_pr_auc_lo": 0.7154695212353152,
+      "test_pr_auc_hi": 0.8821552111237225,
+      "test_roc_auc": 0.9854038122359532,
+      "test_recall": 0.8133333333333334,
+      "test_precision": 0.5304347826086957,
+      "test_fpr": 0.0009492502680753072,
+      "test_alerts": 115,
+      "test_caught": 61
+    },
+    {
+      "model": "Class weights",
+      "trees": 490,
+      "valid_pr_auc": 0.7920112241651478,
+      "test_pr_auc": 0.8059720762431217,
+      "test_pr_auc_lo": 0.718097590440023,
+      "test_pr_auc_hi": 0.8829282771637694,
+      "test_roc_auc": 0.975849901266253,
+      "test_recall": 0.8,
+      "test_precision": 0.5042016806722689,
+      "test_fpr": 0.0010371438114156134,
+      "test_alerts": 119,
+      "test_caught": 60
+    },
+    {
+      "model": "Random undersampling",
+      "trees": 72,
+      "valid_pr_auc": 0.7798214557325602,
+      "test_pr_auc": 0.7809596114137787,
+      "test_pr_auc_lo": 0.6918950795954637,
+      "test_pr_auc_hi": 0.8601572584499455,
+      "test_roc_auc": 0.9839775930060178,
+      "test_recall": 0.8,
+      "test_precision": 0.5042016806722689,
+      "test_fpr": 0.0010371438114156134,
+      "test_alerts": 119,
+      "test_caught": 60
+    },
+    {
+      "model": "Focal Loss",
+      "trees": 99,
+      "valid_pr_auc": 0.7885324304663966,
+      "test_pr_auc": 0.8031238594161175,
+      "test_pr_auc_lo": 0.7167285397724441,
+      "test_pr_auc_hi": 0.8790981936093073,
+      "test_roc_auc": 0.9848551221427274,
+      "test_recall": 0.8,
+      "test_precision": 0.4918032786885246,
+      "test_fpr": 0.0010898799374197971,
+      "test_alerts": 122,
+      "test_caught": 60
+    }
+  ]
+}
