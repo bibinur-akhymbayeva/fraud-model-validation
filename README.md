@@ -54,7 +54,7 @@ Focal Loss is implemented as a custom LightGBM objective with an analytic gradie
 ## Run it
 
 ```bash
-git clone https://github.com/<your-username>/fraud-model-validation.git
+git clone https://github.com/<bibinur-akhymbayeva>/fraud-model-validation.git
 cd fraud-model-validation
 pip install -r requirements.txt
 # download creditcard.csv into data/ (see data/README.md)
